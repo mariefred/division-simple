@@ -4,12 +4,13 @@
   "description": "Division des dépenses en famille with Node.js, Express and MongoDB",
   "main": "app.js",
   "scripts": {
-    "start":"nodemon app.js",
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "macfly",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "bunyan": "^1.8.15",
     "cors": "^2.8.5",
     "express": "^4.18.1",
